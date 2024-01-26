@@ -34,3 +34,10 @@ function cleanInputString(str){
       // \d character class to match any digit 
       return str.match(regex); //functions will return the exponential notation if it finds it
   }
+
+  //Allow users to add entries into the calorie counter.
+   // The dropdown allows the user to select a category for where the entry goes into - entryDropdown
+   //get the value of the selected option with the value property
+  function addEntry(){
+     const targetId = "#" + entryDropdown.value;
+  }
